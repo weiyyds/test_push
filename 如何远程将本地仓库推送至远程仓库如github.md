@@ -15,21 +15,10 @@
 >git remote add origin git@github.com:weiyyds/test_push.git
 >
 >git push -u origin master
+>
+>#第一次提交才需要-u参数
+>
+>后续只需git push
 
 
 
-1.在github创建一个仓库
-
-2.复制github上的ssh地址 
-
-在本地仓库中输入cmd
-
-git clone ssh地址
-
-3.把需要提交的东东放在本地仓库
-
-4.git add .
-
-5.git commit -m '提交注释语句'
-
-6.git push origin master
